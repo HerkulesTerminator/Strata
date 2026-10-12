@@ -1,6 +1,6 @@
 # Community benchmark: RTX 3090 + RTX 5070 + RTX 5070 Ti (layer split, no 5090)
 
-Measured on 2026-10-12 by Gouvernator (Brother Sergius). This tests Strata 0.1.42
+Measured on 2026-10-12. This tests Strata 0.1.42
 with a custom Q2_0 native pack on a three-GPU layer split, 260,000-token context,
 on a machine whose only large GPU is a 24 GB RTX 3090. The main limitation is
 expert residency: the three cards together can hold 99% of the profiled expert

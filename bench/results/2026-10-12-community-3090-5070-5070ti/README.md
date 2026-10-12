@@ -25,7 +25,7 @@ not establish answer quality or performance on other workloads.
   AVX-2 expert kernels (no AVX-512 on this CPU) and 18 pool tasks per phase with
   6 participating threads (5 pool workers plus the host thread).
 - RAM: 62 GiB installed; Linux reported 62.7 GiB usable.
-- Storage: model shards on a spinning HDD (`/dev/sda3`, ntfs3, rotational);
+- Storage: old nvme
   system on `/dev/sdd2` (ext4). The engine reported "the SSD is kept awake while
   rows are read" — the PLE table is read directly from the HDD, unbuffered.
 - OS: KDE neon User Edition 24.04, kernel 7.0.0-38-generic, NVIDIA driver 595.91.07.
